@@ -12,6 +12,12 @@ A polished, developer‑focused web UI for the TechBuddy AI chatbot. The interfa
 - Conversation history and usage counter
 - Markdown rendering, syntax highlighting, and copy‑to‑clipboard for code blocks
 
+## Demo
+Access the live deployed version: https://llmchatbot-ten.vercel.app/
+
+## Repository
+Source code: https://github.com/dasamsriram07/llmchatbot.git
+
 ## Setup
 1. Install dependencies:
    ```bash
@@ -25,7 +31,7 @@ A polished, developer‑focused web UI for the TechBuddy AI chatbot. The interfa
    ```bash
    nodemon server.js   # or `node server.js`
    ```
-4. Open the UI in a browser:
+4. Open the UI locally:
    `http://localhost:3000/`
 
 ## Usage
