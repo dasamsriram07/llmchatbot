@@ -1,7 +1,5 @@
 # TechBuddy AI Chat
 
-## Overview
-A polished, developer‑focused web UI for the TechBuddy AI chatbot. The interface uses a light theme by default, supports a dark/light toggle, a responsive sidebar, static explanatory prompts (Explain a concept, Debug code, Explore DSA), and a streamlined message composer while keeping the existing Gemini backend unchanged.
 
 ## Features
 - Light theme (default) with dark mode toggle persisted in `localStorage`
