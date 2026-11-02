@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLM Chatbot</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Marked for markdown -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <!-- DOMPurify for safe HTML -->
+    <script src="https://cdn.jsdelivr.net/npm/dompurify@2.4.0/dist/purify.min.js"></script>
+    <!-- Highlight.js for code syntax -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+</head>
+
+<body data-theme="light">
+    <div class="app">
+        <nav class="sidebar">
+            <header>TechBuddy</header>
+            <button id="new-chat-btn">New Chat</button>
+            <ul class="conversation-list" id="conversation-list"></ul>
+        </nav>
+        <main class="main">
+            <header class="header">
+                <h1>TechBuddy AI</h1>
+                <button class="theme-toggle" id="theme-toggle">🌙</button>
+            </header>
+            <section class="chat-area" id="chat-area">
+                <div class="welcome" id="welcome-screen">
+                    <h2>Let's build something intelligent.</h2>
+                    <p>Your AI partner for coding, debugging, and computer science.</p>
+                    <div class="prompt-chips">
+                        <p class="prompt-text">Explain a concept</p>
+                        <p class="prompt-text">Debug code</p>
+                        <p class="prompt-text">Explore DSA</p>
+                    </div>
+                </div>
+                <!-- Messages will be injected here -->
+            </section>
+            <div class="input-bar">
+                <input type="text" id="message-input" placeholder="Ask me anything..." autocomplete="off" />
+                <button id="send-btn">Send</button>
+            </div>
+        </main>
+    </div>
+    <script src="/js/chat.js"></script>
+</body>
+
+</html>
